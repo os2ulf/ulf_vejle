@@ -487,6 +487,12 @@ a {
   background: $course;
 }
 
+.nav--sub {
+  border-left: 1px solid $course;
+  border-right: 1px solid $course;
+  border-bottom: 1px solid $course;
+}
+
 .nav--list-dropdown-item:hover, .nav--list-item:hover {
   background-color: lighten($course, 10%);;
 }
