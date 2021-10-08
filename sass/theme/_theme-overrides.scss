@@ -405,6 +405,10 @@ a {
         @include background-set-color('daycare', 0.7);
       }
     }
+
+    &.is-course {
+      margin: 8px 0;
+    }
   }
 
 
@@ -477,4 +481,28 @@ a {
     @extend %button;
     @include strip-link-styles($white);
   }
+}
+
+.nav {
+  background: $course;
+}
+
+.nav--list-dropdown-item:hover, .nav--list-item:hover {
+  background-color: lighten($course, 10%);;
+}
+.nav--list-item-sub a:link {
+  color: $course;
+}
+
+.layout-newsletter-archive .layout-inner>div:nth-child(2),
+.layout-newsletter-archive .layout-inner>div:nth-child(5),
+.layout-view-page .layout-inner>div:nth-child(2),
+.layout-view-page .layout-inner>div:nth-child(5),
+.layout-node .layout-inner>div:nth-child(2),
+.layout-node .layout-inner>div:nth-child(5),
+.layout-frontpage .layout-inner>div:nth-child(2),
+.layout-frontpage .layout-inner>div:nth-child(5),
+.layout-profile .layout-inner>div:nth-child(2),
+.layout-profile .layout-inner>div:nth-child(5) {
+  background: #d1e8e1;
 }
