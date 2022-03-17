@@ -185,10 +185,16 @@ a {
       background: none;
     }
 
+    &--logo {
+      @include breakpoint(45em) {
+        max-width: 40%
+      }
+    }
+
     &--logo-image {
-      height: 60px;
+      height: auto;
       position: relative;
-      left: 2px;
+      left: 5px;
 
       @include breakpoint(45em) {
         height: auto;
