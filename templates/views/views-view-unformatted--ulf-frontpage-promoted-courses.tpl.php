@@ -15,6 +15,3 @@
     <?php print $row; ?>
   <?php endforeach; ?>
 </div>
-<a href="/dagtilbud" class="is-daycare teaser--list-button"><?php print t('View all daycare courses');?></a>
-<a href="/grundskole" class="is-school teaser--list-button"><?php print t('View all school courses');?></a>
-<a href="/kurser" class="is-course teaser--list-button"><?php print t('View all courses for educators');?></a>
