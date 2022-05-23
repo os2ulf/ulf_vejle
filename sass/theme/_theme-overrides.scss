@@ -518,3 +518,10 @@ a {
 .layout-profile .layout-inner>div:nth-child(5) {
   background: #d1e8e1;
 }
+
+.teaser--type-read-more a {
+  padding-left: 1em;
+  background: transparent url("../images/arrow-right-icon-purple.svg") no-repeat scroll left 2px;
+  background-size: auto;
+  background-size: .8em;
+}
